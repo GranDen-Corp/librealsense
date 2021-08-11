@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <Title>Intel RealSense™ SDK 2.0 C# wrapper</Title>
+    <PackageLicenseExpression>Apache</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/GranDen-Corp/librealsense</RepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Copyright>Copyright (c) 2021 GranDen Corp.(狂點軟體開發)</Copyright>
+    <Company>GranDen Inc.</Company>
+    <Description>Package the Intel RealSense™ SDK 2.0(https://github.com/IntelRealSense/librealsense) C# wrapper to .NET 5 Nugget Package.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
