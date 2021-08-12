@@ -6,8 +6,11 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/GranDen-Corp/librealsense</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageProjectUrl>https://github.com/GranDen-Corp/librealsense</PackageProjectUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageTags>intel RealSense PInvoke wrapper</PackageTags>
     <Copyright>Copyright (c) 2021 GranDen Corp.(狂點軟體開發)</Copyright>
     <Company>GranDen Inc.</Company>
     <Description>Package the Intel RealSense™ SDK 2.0(https://github.com/IntelRealSense/librealsense) C# wrapper to .NET 5 Nuget Package.</Description>
